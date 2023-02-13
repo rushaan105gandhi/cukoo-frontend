@@ -20,6 +20,9 @@
 .gpt3__navbar-links_logo img{
     width: 62.56px;
     height: 16.02px;
+    position: absolute;
+    margin-left: -5%;
+    margin-top: 0.25%;
 }
 
 .gpt3__navbar-links_container{
