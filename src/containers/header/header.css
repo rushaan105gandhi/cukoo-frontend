@@ -106,7 +106,7 @@
 }
 
 .gpt3__header-image img {
-    width: 100%;
+    width: 120%;
     height: 100%;
 }
 
@@ -140,6 +140,21 @@
     .gpt3__header-content__input button {
         font-size: 16px;
         line-height: 24px;
-        
+    }
+}
+
+@media screen and (max-width: 490px){
+    .gpt3__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .gpt3__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
