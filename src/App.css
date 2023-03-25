@@ -14,13 +14,19 @@ a{
     text-decoration: none;
 }
 
-.gradient__bg{
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+.gradient__bg
+    
+{
+
+    background:-moz-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFBDD8', endColorstr='#FFFDD0', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    background:linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+
 }
+
 
 .gradient__text{
     background: var(--gradient-text);

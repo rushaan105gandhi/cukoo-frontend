@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import {RiMenu3Line, RiCloseLin, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg';
+import gogo from '../../assets/gogo.svg';
 import './navbar.css';
 
 const Menu = () => (
@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='cukoo__navbar'>
       <div className='cukoo__navbar-links'>
         <div className='cukoo__navbar-links_logo'>
-          <img src={logo} alt="logo" />
+          <img src={gogo} alt="logo" />
           {/* <img src="logos.pnj" alt="logo" /> */}
         </div>
         <div className='cukoo__navbar-links_container'>

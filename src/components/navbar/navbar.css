@@ -19,9 +19,9 @@
 
 .cukoo__navbar-links_logo img{
     width: 140.56px;
-    height: 60.02px;
+    height: 93.02px;
     position: absolute;
-    margin-top: -2.65%;
+    margin-top: -3.85%;
     margin-left: -8%;
 }
 
@@ -41,9 +41,9 @@
 .cukoo__navbar-menu_container p{
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
     text-transform: capitalize;
 
     margin: 0 1rem;
