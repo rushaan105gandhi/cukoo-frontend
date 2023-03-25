@@ -18,11 +18,11 @@
 }
 
 .gpt3__navbar-links_logo img{
-    width: 62.56px;
-    height: 16.02px;
+    width: 140.56px;
+    height: 60.02px;
     position: absolute;
-    margin-left: -5%;
-    margin-top: 0.25%;
+    margin-top: -1.75%;
+    margin-left: -8%;
 }
 
 .gpt3__navbar-links_container{
