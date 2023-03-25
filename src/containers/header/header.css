@@ -13,6 +13,7 @@
 }
 
 .cukoo__header-content h1 {
+    
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -99,6 +100,7 @@
 }
 
 .cukoo__header-image {
+    margin-top: -10.5%;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -106,7 +108,7 @@
 }
 
 .cukoo__header-image img {
-    width: 120%;
+    width: 160%;
     height: 100%;
 }
 

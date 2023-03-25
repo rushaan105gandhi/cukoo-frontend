@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+import aiii from '../../assets/aiii.png';
 
 
 
@@ -9,8 +9,9 @@ const Header = () => {
   return (
     <div className='cukoo__header section__padding' id='home'>
       <div className='cukoo__header-content'>
-        <h1 className='gradient__text'>Let's Build Something amazing with GPT-3 OpenAI</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercises blessing indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      {/* <img src={logs} alt="logo" /> */}
+        <h1 className='gradient__text'>Add ingredients to the pantry and get started.</h1>
+        <p>Every ingredient you add unlocks more recipes</p>
         <div className='cukoo__header-content__input'>
           <input type="email" placeholder='Your email Adress' />
           <button type='button'>Get Started</button>
@@ -21,7 +22,7 @@ const Header = () => {
         </div>
       </div>
         <div className='cukoo__header-image'>
-          <img src={ai} alt="ai" />
+          <img src={aiii} alt="ai" />
         </div>
       
     </div>
