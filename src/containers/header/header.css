@@ -51,7 +51,7 @@
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: var(--color-text);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -76,7 +76,7 @@
     border-bottom-right-radius: 5px;
 }
 
-.cukoo__header-content__people{
+/* .cukoo__header-content__people{
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -90,14 +90,15 @@
 }
 
 .cukoo__header-content__people p{
+    margin-top: -0.00009%;
     margin-left: 0 0 0 1rem;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
     line-height: 38px;
-    color: #FFFFFF;
+    color: var(--color-text);
     text-align: center;
-}
+} */
 
 .cukoo__header-image {
     margin-top: -10.5%;
