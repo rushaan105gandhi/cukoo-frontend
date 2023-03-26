@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-import aiii from '../../assets/aiii.png';
+// import aiii from '../../assets/aiii.png';
 
 
 
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
         <div className='cukoo__header-image'>
-          <img src={aiii} alt="ai" />
+          {/* <img src={aiii} alt="ai" /> */}
         </div>
       
     </div>
